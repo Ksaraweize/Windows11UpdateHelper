@@ -1,0 +1,25 @@
+﻿<Page x:Class="Windows11UpdateHelper.Views.HelperPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Windows11UpdateHelper.Views"
+      xmlns:hc="https://handyorg.github.io/handycontrol"
+      xmlns:vm="clr-namespace:Windows11UpdateHelper.ViewModels" 
+      d:DataContext="{d:DesignInstance Type=vm:HelperViewModel}"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HelperPage">
+    <Page.DataContext>
+        <vm:HelperViewModel/>
+    </Page.DataContext>
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="当前Insider频道(选择Beta会被强制切换到ReleasePreview)"/>
+        <hc:ComboBox Margin="0,20,0,0" SelectedIndex="{Binding InsiderChannelSelected,Mode=TwoWay}" ItemsSource="{Binding ChannelNames}"/>
+        
+        <TextBlock Margin="0,20,0,0" Text="在更新操作系统版本时打开"/>
+        <CheckBox IsChecked="{Binding Monitoring,Mode=TwoWay}">
+            <TextBlock Text="监视文件夹以绕过TPM和UEFI检测"/>
+        </CheckBox>
+    </StackPanel>
+</Page>

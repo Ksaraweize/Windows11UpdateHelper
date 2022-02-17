@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows11UpdateHelper", "Windows11UpdateHelper.csproj", "{CDAF7654-33F6-47F0-838C-ED1471A56300}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDAF7654-33F6-47F0-838C-ED1471A56300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAF7654-33F6-47F0-838C-ED1471A56300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAF7654-33F6-47F0-838C-ED1471A56300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAF7654-33F6-47F0-838C-ED1471A56300}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {293A9ABF-123D-4853-AAEB-9DA5497B2350}
+	EndGlobalSection
+EndGlobal

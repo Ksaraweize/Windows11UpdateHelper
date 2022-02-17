@@ -1,0 +1,12 @@
+﻿<hc:Window x:Class="Windows11UpdateHelper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Windows11UpdateHelper"
+        xmlns:views="clr-namespace:Windows11UpdateHelper.Views"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        mc:Ignorable="d"
+        Title="Window11 Update Helper" Height="450" Width="800">
+    <views:HelperPage/>
+</hc:Window>
