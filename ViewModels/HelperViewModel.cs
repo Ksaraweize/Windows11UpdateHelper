@@ -37,7 +37,7 @@ namespace Windows11UpdateHelper.ViewModels
         }
 
 
-        public List<string> ChannelNames { get; } = new string[] { "Dev", "Beta", "ReleasePreview" }.ToList();
+        public List<string> ChannelNames { get; } = new string[] { "Dev", "Beta", "ReleasePreview", "Canary" }.ToList();
 
         public HelperViewModel()
         {
